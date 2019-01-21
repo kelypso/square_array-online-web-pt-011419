@@ -1,4 +1,3 @@
-=begin
 def square_array(array)
   square_array = []
   array.each do |num|
@@ -6,7 +5,6 @@ def square_array(array)
   end
   return square_array
 end
-=end
 
 def square_array(array)
   array.collect do |num|
